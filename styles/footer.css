@@ -1,4 +1,4 @@
 footer {
-    background-color: darkslategrey;
+    background-color: var(--primary);
     height: 300px;
 }
