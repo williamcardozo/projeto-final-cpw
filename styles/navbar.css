@@ -18,9 +18,11 @@
 }
 
 .logo {
-    height: 9vh;
-    width: 80px;
-    background: white;    
+    margin: 0 10px;
+}
+
+.logo img {
+    height: 9vh; 
 }
 
 .titulo {
@@ -36,6 +38,7 @@
 
 .navbar li {
     display: inline-block;
+    font-size: 2.5vh;
 }
 
 .navbar li a {
@@ -45,5 +48,7 @@
 }
 
 .navbar li a:hover {
-    background-color: #555;
+    color: var(--primary);
+    background-color: lightgray;
+    font-weight: bold;
 }
