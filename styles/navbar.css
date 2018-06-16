@@ -1,7 +1,12 @@
 .navbar {
-
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
 }
 
 .logo {
-    
+    height: 100%
 }
