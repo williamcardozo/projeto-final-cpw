@@ -7,11 +7,43 @@
     background: black;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.navbar div{
+    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
-    height: 90%;
+    height: 9vh;
     width: 80px;
-    background: white;
-    margin: 0 5px;
+    background: white;    
+}
+
+.titulo {
+    color: white;
+    font-size: 5vh;
+    margin: 0 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #555;
 }
