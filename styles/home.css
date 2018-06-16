@@ -1,5 +1,10 @@
-.introducao {
+.bem-vindo {
     background-image: url("../images/lol-background.png");
     width: 100%;
     height: 100vh;
+}
+
+.bio {
+    background-color: #fff;
+    height: 750px;
 }
