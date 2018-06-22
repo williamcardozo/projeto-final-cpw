@@ -1,5 +1,4 @@
 .bem-vindo {
-    background-image: url("../images/lol-background.png");
     width: 100%;
     height: 100vh;
     display: flex;
@@ -8,8 +7,18 @@
     flex-direction: column;
 }
 
-.bem-vindo > img {
+.bem-vindo > .logo {
     height: 30%;
+}
+
+.fundo {
+    background: url("../images/background.jpg") no-repeat 50% fixed / cover; 
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    filter: blur(3px);
+    transform: scale(1.1); 
+    z-index: -1;
 }
 
 .bem-vindo > h1 {
@@ -30,4 +39,5 @@
 .bem-vindo > .download-container > svg {
     height: 50%;
     padding: 2%;
+    cursor: pointer;
 }
