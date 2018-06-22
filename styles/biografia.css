@@ -1,0 +1,11 @@
+.biografia {
+    background-color: #fff;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biografia > .conteudo {
+    width: 55%;
+}
