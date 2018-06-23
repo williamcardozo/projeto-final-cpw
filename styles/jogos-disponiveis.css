@@ -1,12 +1,8 @@
-.biografia {
-    background-color: #fff;
-    height: 750px;
+.jogos-disponiveis {
+    background-color:#684e7b;
+    height: 500px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0 5%;
-}
-
-.biografia > img {
-    height: 80%;
 }
