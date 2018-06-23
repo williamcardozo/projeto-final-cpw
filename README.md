@@ -2,3 +2,5 @@
 
 É um aplicativo que tem a finalidade de marcar partidas de times de esports amadores de forma automágica.
 Apenas o Frontend será desenvolvido nesse primeiro momento
+
+GitHub Pages: https://williamcardozo.github.io/projeto-final-cpw/
