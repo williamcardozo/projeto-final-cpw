@@ -1,0 +1,16 @@
+.biografia {
+    background-color: #fff;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.biografia > .conteudo {
+    width: 40%;
+}
+
+.biografia > img {
+    height: 80%;
+}
