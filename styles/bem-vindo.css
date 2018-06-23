@@ -22,7 +22,32 @@
 }
 
 .bem-vindo > h1 {
-    font-size: 100px
+    font-size: 100px;
+    color: #f7f7f7;
+    text-shadow: 1px 1px 0 var(--primary),
+    -1px 1px 0 var(--primary),
+    1px -1px 0 var(--primary),
+    -1px -1px 0 var(--primary),
+    0px 1px 0 var(--primary),
+    0px -1px 0 var(--primary),
+    -1px 0px 0 var(--primary),
+    1px 0px 0 var(--primary),
+    2px 2px 0 var(--primary),
+    -2px 2px 0 var(--primary),
+    2px -2px 0 var(--primary),
+    -2px -2px 0 var(--primary),
+    0px 2px 0 var(--primary),
+    0px -2px 0 var(--primary),
+    -2px 0px 0 var(--primary),
+    2px 0px 0 var(--primary),
+    1px 2px 0 var(--primary),
+    -1px 2px 0 var(--primary),
+    1px -2px 0 var(--primary),
+    -1px -2px 0 var(--primary),
+    2px 1px 0 var(--primary),
+    -2px 1px 0 var(--primary),
+    2px -1px 0 var(--primary),
+    -2px -1px 0 var(--primary);
 }
 
 .bem-vindo > .download-container  {
