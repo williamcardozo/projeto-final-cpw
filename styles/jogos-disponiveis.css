@@ -5,4 +5,10 @@
     justify-content: space-around;
     align-items: center;
     padding: 0 5%;
+    color: #fff;
+}
+
+.jogos-disponiveis > .conteudo > p,
+ .jogos-disponiveis > .conteudo > h1 {
+    margin-bottom: 10px;
 }
