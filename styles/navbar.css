@@ -4,11 +4,17 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
+}
+.navbar--home {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar--equipe {
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .navbar div{

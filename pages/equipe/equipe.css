@@ -1,0 +1,56 @@
+body {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.equipe {
+    padding-top: 10vh;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.equipe > h1 {
+    font-size: 40px;
+}
+
+.membro-equipe {
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    border-radius: 25px;
+}
+
+.foto {
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    float:left;
+}
+
+.foto--william {
+    background-image: url("../../images/william.jpg")
+}
+
+.foto--andre {
+    background-image: url("../../images/andre.jpg")
+}
+
+.foto--lucas {
+    background-image: url("../../images/lucas.jpg")
+}
+
+.info {
+    margin-left: 20px;
+    color: #f7f7f7;
+}
+
+.info > a {
+    color: #f7f7f7;
+}
