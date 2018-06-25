@@ -34,18 +34,6 @@ body {
     float:left;
 }
 
-.foto--william {
-    background-image: url("../../images/william.jpg")
-}
-
-.foto--andre {
-    background-image: url("../../images/andre.jpg")
-}
-
-.foto--lucas {
-    background-image: url("../../images/lucas.jpg")
-}
-
 .info {
     margin-left: 20px;
     color: #f7f7f7;
