@@ -5,12 +5,12 @@ body {
 }
 
 .contato {
-    padding-top: 10vh;
-    height:100vh;
+    padding-top: 12vh;
+    height:90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .contato > h1 {
@@ -18,13 +18,71 @@ body {
 }
 
 .formulario {
-    font-size: 16px;
+    width: 80vw;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    padding: 10px;
 }
 
 .formulario label {
     display: block;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.formulario input[type="text"], .formulario input[type="email"] {
+    width: 400px;
+    font-size: 18px;
+}
+
+.formulario textarea {
+    width: 400px;
+    font-size: 14px;
+    display: block;
+}
+
+.formulario .botoes{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+    cursor: pointer;
+    
+}
+
+.formulario .botao {
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 18px;
+    box-shadow: 0 0 3px 0 var(--primary);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.formulario .botao:hover {
+    box-shadow: 0 0 7px 0 var(--primary);
+    opacity: 0.9;
+}
+
+.formulario .botao-enviar {
+    background-color: var(--primary);
+    color: white;
+}
+
+.formulario .botao-limpar {
+    border-radius: 2px;
+    color: black;   
+}
+
+.aviso{
+    display: block;
+    color: red;
+    font-size: 12px;
+}
+
+.campo-obrigatorio {
+    border: 1px solid red;
 }

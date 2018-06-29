@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lets Play - Equipe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="../../images/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="contato.css" />
     <link href="../../styles/general.css" rel="stylesheet">
@@ -30,16 +31,29 @@
     </nav>
     <section class="contato">
         <h1>Contato</h1>
+        <p>Caso tenha alguma sugestão, reclamação ou duvida, envie uma mensagem pelo nosso formulário de contato ou via <a href="mailto:contato@letsplay.com">email</a>.</p>
         <div class="formulario">
-            <form action="">
+            <form id="formulario-contato" name="formulario-contato" action="javascript:void(0)">
 
                 <label for="nome">Nome</label>
-                <input id="nome" type="text">
+                <input id="nome" name="nome" type="text" size="50" >
+                <small class="aviso" id="aviso-nome"></small>
 
                 <label for="email">E-Mail</label>
-                <input id="email" type="email">
+                <input id="email" name="email" type="email" size="100" >
+                <small class="aviso" id="aviso-email"></small>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="10"></textarea>
+                <small class="aviso" id="aviso-mensagem"></small>
+
+                <div class="botoes">
+                    <button class="botao botao botao-enviar" onclick="validarFormulario()">Enviar</button>
+                    <button class="botao botao botao-limpar" onclick="limparFormulario()">Limpar</button> 
+                </div>
                
             </form>
+            
         </div>
     </section>
     <footer>
@@ -50,5 +64,6 @@
         </ul>
         <small>ⓒ2018 Lets Play, Inc. Todos os direitos reservados.</small>
     </footer>
+    <script src="./contato.js"></script>
 </body>
 </html>
