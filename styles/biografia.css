@@ -10,3 +10,11 @@
 .biografia > img {
     height: 80%;
 }
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    padding: 10px 0;
+}
