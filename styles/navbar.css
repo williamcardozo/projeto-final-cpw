@@ -23,6 +23,10 @@
     align-items: center;
 }
 
+.navbar a{
+    text-decoration: none;
+}
+
 .logo {
     margin: 0 10px;
 }
